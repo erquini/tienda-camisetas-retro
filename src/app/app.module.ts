@@ -18,7 +18,6 @@ import { CamisetasService } from './servicios/camisetas.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
     HeaderComponent,
     FooterComponent,
     InicioComponent,
@@ -36,3 +35,5 @@ import { CamisetasService } from './servicios/camisetas.service';
     ReactiveFormsModule
   ],
   providers: [CamisetasService],
+  })
+export class AppModule { }
